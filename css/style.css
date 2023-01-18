@@ -484,10 +484,8 @@ textarea{
     gap: 50px;
 }
 .forms__checkbox {
-    flex: 0 1 312px;
+    flex: 1 1 312px;
     position: relative;
-    
-
 }
 .forms__check{
     position: absolute;
@@ -499,7 +497,7 @@ textarea{
 
 .forms__check:checked + .forms__label::before{
     content: "";
-    background: url("img/Mark.svg") center / 70% no-repeat;
+    background: url("../img/Mark.svg") center / 70% no-repeat;
     background-color: #FF3F3A;
     outline: 1px solid #FF3F3A;
 } 
