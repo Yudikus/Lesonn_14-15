@@ -499,7 +499,7 @@ textarea{
 
 .forms__check:checked + .forms__label::before{
     content: "";
-    background: url("/img/Mark.svg") center / 70% no-repeat;
+    background: url("img/Mark.svg") center / 70% no-repeat;
     background-color: #FF3F3A;
     outline: 1px solid #FF3F3A;
 } 
